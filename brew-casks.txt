@@ -16,3 +16,4 @@ inkscape
 visual-studio-code
 sublime-text
 insomnia
+bitwarden
