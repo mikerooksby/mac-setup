@@ -28,6 +28,8 @@ echo installing homebrew casks...
 
 curl -O https://raw.githubusercontent.com/mikerooksby/mac-setup/main/brew-casks.txt
 
+brew tap homebrew/cask-versions
+
 brew install $( < brew-casks.txt )
 
 # change shell to bash
