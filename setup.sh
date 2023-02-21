@@ -6,6 +6,8 @@ xcode-select --install
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+brew update
+
 cd ~
 
 # install homebrew formulae
@@ -17,6 +19,10 @@ brew install brew-formulae.txt
 curl -O https://raw.githubusercontent.com/mikerooksby/mac-setup/main/brew-casks.txt
 
 brew install brew-casks.txt
+
+# change shell to bash
+
+chsh -s /usr/local/bin/bash
 
 # setup bash_profile and other dot files
 
