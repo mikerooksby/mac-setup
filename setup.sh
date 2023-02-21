@@ -20,7 +20,7 @@ echo installing homebrew formulae...
 
 curl -O https://raw.githubusercontent.com/mikerooksby/mac-setup/main/brew-formulae.txt
 
-brew install brew-formulae.txt
+brew install $( < brew-formulae.txt )
 
 # install homebrew casks
 
@@ -28,7 +28,7 @@ echo installing homebrew casks...
 
 curl -O https://raw.githubusercontent.com/mikerooksby/mac-setup/main/brew-casks.txt
 
-brew install brew-casks.txt
+brew install $( < brew-casks.txt )
 
 # change shell to bash
 
